@@ -3,8 +3,6 @@
 // 3.  Each of the /inbox and /spam routes should display a list of emails. 
 // 4.  Clicking on an email should take you to a /:mailbox_name/:emailId route, which displays the email contents.
 
-require('babel-polyfill');
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, hashHistory} from 'react-router';
